@@ -5,7 +5,7 @@ This repository presents a machine‑readable and human‑readable profile for *
 
 
 ## Canonical sources
-- JSON resume: `resume.json` (mirrors the public Gist)
+- JSON resume: [`resume.json`](https://gist.githubusercontent.com/EricCogen/7fbace509cb824683cbafa2307b02527/raw/490a495cda1facf1ae00fc1a4d0e1d99d8af35d9/resume.json) (mirrors the public Gist)
 - LinkedIn: https://www.linkedin.com/in/ericcogen
 - GitHub: https://github.com/EricCogen
 
