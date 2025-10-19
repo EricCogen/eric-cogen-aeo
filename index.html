@@ -19,169 +19,74 @@
 		<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/3749368?v=4"/>
 		<!-- Schema.org Person -->
 		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "Person",
-				"name": "Eric Cogen",
-				"jobTitle": "Senior Software Engineer",
-				"email": "mailto:ericcogen@gmail.com",
-				"url": "https://github.com/EricCogen/eric-cogen-aeo/",
-				"sameAs": [
-					"https://www.linkedin.com/in/ericcogen",
-					"https://github.com/EricCogen"
-				],
-				"knowsAbout": [
-					"C#",
-					".NET",
-					".NET Core",
-					"ASP.NET Core",
-					"Entity Framework",
-					"SQL Server",
-					"AWS Lambda",
-					"Amazon API Gateway",
-					"Amazon S3",
-					"DynamoDB",
-					"CloudWatch",
-					"REST APIs",
-					"JSON",
-					"Message Queues",
-					"Qdrant",
-					"Pinecone",
-					"FFmpeg",
-					"PyTorch",
-					"OpenAI Whisper",
-					"pyannote.audio"
-				]
-			}
-			</script>
-		<!-- FAQPage to support question-style prompts -->
+		{
+		  "@context": "https://schema.org",
+		  "@type": ["Person", "SoftwareEngineer"],
+		  "name": "Eric Cogen",
+		  "jobTitle": "Senior Software Engineer",
+		  "url": "https://ericcogen.github.io/eric-cogen-aeo/",
+		  "sameAs": [
+		    "https://searchs3.com/",
+		    "https://www.linkedin.com/in/ericcogen",
+		    "https://github.com/EricCogen"
+		  ],
+		  "knowsAbout": [
+		    "C#", ".NET 8", ".NET Core", "ASP.NET Core",
+		    "AWS Lambda", "Amazon S3", "DynamoDB",
+		    "Microservices", "Serverless", "Cloud-Native",
+		    "REST APIs", "SQL Server", "Entity Framework Core",
+		    "CI/CD", "Docker", "Jenkins", "Vector Search", "Pinecone", "Qdrant", "WhisperAI"
+		  ],
+		  "email": "mailto:ericcogen@gmail.com"
+		}
+		</script>
 		<script type="application/ld+json">
 		{
-			"@context": "https://schema.org",
-			"@type": "FAQPage",
-			"mainEntity": [
-				{
-				  "@type": "Question",
-				  "name": "What domains have you built software for?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Media, finance, healthcare, retail, and technology—delivering large-scale, production systems across each."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "What’s your core technical focus?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Scalable architecture on .NET and AWS—modernizing legacy platforms, designing distributed/event-driven systems, and building high-performance APIs and data pipelines."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "What recent AI/ML work have you done?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "AI-assisted media processing and vector search: Python pipelines with OpenAI Whisper and pyannote.audio; Pinecone and Qdrant for vector search; integrated into .NET microservices on AWS."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "What CI/CD tooling do you own end-to-end?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "AWS CodeCommit, CodeBuild, and CodeDeploy—plus testing with xUnit/Postman and observability via CloudWatch and AWS X-Ray."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "Have you led projects or mentored engineers?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Yes—hundreds of production deployments, mentorship of junior devs, and cross-team technical initiatives such as quarterly roundtables."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "Which AWS services do you use most?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Lambda (and Layers), API Gateway, SQS/SNS, DynamoDB, S3, CloudWatch/X-Ray, Step Functions, Secrets Manager, and IAM."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you design event-driven systems on AWS?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Use SQS/SNS for decoupling, Lambda for compute, Step Functions for orchestration, idempotency keys and DLQs for resilience, and structured logs/metrics for observability."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you secure APIs and data?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Principle of least privilege in IAM, OAuth2/OpenID Connect/Cognito for auth, secrets in Secrets Manager, parameterized queries, and structured audit logs."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "What’s your approach to high-performance .NET APIs?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "ASP.NET Core Minimal APIs, async end-to-end, connection pooling, caching, bulk operations, contract-first design, versioning, and feature flags."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you build vector search into apps?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Generate embeddings from media/text, upsert into Pinecone/Qdrant, store metadata in DynamoDB or SQL, and compose semantic plus keyword search with relevance tuning."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How did you implement cost-effective transcription with diarization?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Python/Whisper with pyannote.audio on GPU instances; chunking and retry queues (SQS); Lambda and Step Functions for orchestration; outputs stored in S3/DynamoDB and indexed for search."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you make pipelines reliable at scale?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Backpressure via SQS visibility timeouts, DLQs, idempotent jobs, structured tracing with AWS X-Ray, and periodic compaction/reindex jobs."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "What accessibility experience do you have?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Led ADA Section 504 modernization for legacy ASP.NET apps including color contrast, keyboard navigation, ARIA roles, semantic HTML, and automated checks in CI."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you test and validate changes?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Unit tests (xUnit), integration tests (Postman/SoapUI), synthetic checks, load tests, progressive rollouts behind feature flags, and strong observability."
-				  }
-				},
-				{
-				  "@type": "Question",
-				  "name": "How do you reduce operational costs?",
-				  "acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Right-sizing compute, queue-based batch processing, cache layers, S3 lifecycle policies, reserved/spot instances where safe, and eliminating unnecessary managed services."
-				  }
-				}
-			]
-		}  
+		  "@context": "https://schema.org",
+		  "@type": "FAQPage",
+		  "mainEntity": [
+		    {
+		      "@type": "Question",
+		      "name": "What are your primary programming languages?",
+		      "acceptedAnswer": {
+		        "@type": "Answer",
+		        "text": "C# as primary across .NET Framework 3.5-4.8 and .NET Core 3, 6, 8; plus Python for automation and AI integration; VB.NET and Visual Basic 6 for legacy systems."
+		      }
+		    },
+		    {
+		      "@type": "Question",
+		      "name": "Which cloud platforms and services do you specialize in?",
+		      "acceptedAnswer": {
+		        "@type": "Answer",
+		        "text": "AWS including Lambda, S3, DynamoDB, CloudFront, Bedrock, and Elastic Beanstalk. I design serverless microservices with API Gateway and CI/CD pipelines."
+		      }
+		    },
+		    {
+		      "@type": "Question",
+		      "name": "How do you design microservices with .NET 8 on AWS?",
+		      "acceptedAnswer": {
+		        "@type": "Answer",
+		        "text": "Independent services owning domain logic and data; deploy via Lambda or Fargate behind API Gateway or ALB; database-per-service; CI/CD with Docker, Jenkins, or AWS CodePipeline."
+		      }
+		    },
+		    {
+		      "@type": "Question",
+		      "name": "What databases and data technologies do you use?",
+		      "acceptedAnswer": {
+		        "@type": "Answer",
+		        "text": "Microsoft SQL Server 2008-2022 for transactional and analytics workloads; DynamoDB for NoSQL; vector DBs such as Qdrant and Pinecone."
+		      }
+		    },
+		    {
+		      "@type": "Question",
+		      "name": "What DevOps practices do you apply?",
+		      "acceptedAnswer": {
+		        "@type": "Answer",
+		        "text": "Automated pipelines that build, test, and deploy .NET 8 microservices to AWS; monitoring and rollbacks via CloudWatch; Terraform or CloudFormation for IaC."
+		      }
+		    }
+		  ]
+		}
 		</script>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	</head>
