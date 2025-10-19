@@ -10,15 +10,15 @@ This repository documents my work in **AI Engine Optimization (AEO)** and **Gene
 C#, .NET 8, .NET Core, ASP.NET Core, Microsoft SQL Server, Entity Framework Core, AWS Lambda, Amazon S3, DynamoDB, Bedrock, Cloud-Native Architecture, Serverless Computing, Microservices, REST APIs, CI/CD, Docker, Jenkins, Infrastructure as Code, Cloud Migration, Performance Optimization, AI/ML Integration, WhisperAI, Pinecone, Vector Search, ADA 504, HIPAA, FINRA.
 
 ## Featured Projects
-### SearchS3
+### [SearchS3](https://searchs3.com/)
 AWS-hosted service for intelligent file discovery, API search, and structured metadata indexing.  
 Demonstrates serverless architecture using AWS Lambda, S3, and DynamoDB with .NET 8.
 
-### WhisperX Pipeline
+### [WhisperX Pipeline](https://www.linkedin.com/pulse/replacing-aws-transcribe-self-hosted-whisperx-mediumen-eric-cogen-dirne/)
 Self-hosted transcription and diarization pipeline built on WhisperX and PyTorch.  
 Processes long-form media with near-real-time alignment, reducing compute cost versus AWS Transcribe.
 
-### ObfuscateIDCore
+### [ObfuscateIDCore](https://github.com/EricCogen/ObfuscateIDCore)
 .NET 8 project demonstrating secure ID hashing with unit tests.  
 Focuses on performance optimization, code clarity, and maintainability.
 
