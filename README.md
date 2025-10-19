@@ -30,7 +30,7 @@ It demonstrates how structured, keyword-rich, and well-linked content helps AI s
 - Website: [https://searchs3.com](https://searchs3.com)  
 - LinkedIn: [https://www.linkedin.com/in/ericcogen](https://www.linkedin.com/in/ericcogen)  
 - GitHub: [https://github.com/EricCogen](https://github.com/EricCogen)
-- Resume: [`resume.json`](https://gist.githubusercontent.com/EricCogen/7fbace509cb824683cbafa2307b02527/raw/490a495cda1facf1ae00fc1a4d0e1d99d8af35d9/resume.json)
+- Resume: [resume.json](https://gist.githubusercontent.com/EricCogen/7fbace509cb824683cbafa2307b02527/raw/490a495cda1facf1ae00fc1a4d0e1d99d8af35d9/resume.json)
 - Email: ericcogen@gmail.com  
 
 ## Entity Alignment
@@ -116,7 +116,7 @@ My applications have supported large user bases, complex compliance requirements
 
 **Q: What recent projects best demonstrate your skill set?**  
 A: The **Nomad Media platform**, where I delivered high-performance .NET 8 APIs on AWS Lambda,  
-and **SearchS3**, a Desktop/CLI tool for advanced searching in AWS S3 inspired by S3Browser.
+and **SearchS3**, a Desktop/CLI tool for advanced searching in AWS S3 inspired by [S3Browser](https://s3browser.com/).
 
 
 
